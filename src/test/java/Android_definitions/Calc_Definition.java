@@ -33,5 +33,4 @@ public class Calc_Definition {
 
         calc_step.cerrar_app();
     }
-
 }

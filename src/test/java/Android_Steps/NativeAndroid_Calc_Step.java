@@ -11,6 +11,7 @@ import Android_PageObjects.Map_Calc;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
 import net.thucydides.core.annotations.Step;
@@ -18,7 +19,7 @@ import org.assertj.core.api.SoftAssertions;
 import org.junit.Assert;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-public class NativeAndroid_Calc_Step extends MobileElement {
+public class NativeAndroid_Calc_Step extends AndroidElement {
 //  Map_Calc map_calc;
 
     Map_Calc m = new Map_Calc();
@@ -65,7 +66,6 @@ public class NativeAndroid_Calc_Step extends MobileElement {
     @Step
     public void ingresa_datos() {
         m.setear_nums(a_driver);
-        LOG_EJECUCION.log(Level.INFO, " ******* INGRESO DE NUMEROS EJECUTADO CON EXITO ******* ");
 
     }
 
