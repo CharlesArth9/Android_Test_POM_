@@ -42,13 +42,13 @@ public class NativeAndroid_Calc_Step extends AndroidElement {
             caps.setCapability("appPackage", "com.android.calculator2");
             caps.setCapability("appActivity", "com.android.calculator2.Calculator");*/
 
-                caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel 2");
-                caps.setCapability(MobileCapabilityType.UDID, "emulator-5554");
-                caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-                caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9");
-                caps.setCapability(MobileCapabilityType.NO_RESET, false);
-                caps.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.android.calculator2");
-                caps.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.android.calculator2.Calculator");
+            caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel 2");
+            caps.setCapability(MobileCapabilityType.UDID, "emulator-5554");
+            caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
+            caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9");
+            caps.setCapability(MobileCapabilityType.NO_RESET, false);
+            caps.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.android.calculator2");
+            caps.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.android.calculator2.Calculator");
 
 
             //AndroidDriver  a_driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), caps);
@@ -70,23 +70,23 @@ public class NativeAndroid_Calc_Step extends AndroidElement {
     }
 
 
-    public void valida (String res_e){
+    public void valida(String res_e) {
 
         String res_o = m._res_validacion(a_driver);
 
         try {
             if (res_o.trim().equals(res_e)) {
-                Assert.assertTrue("",res_e.equalsIgnoreCase(res_o.trim()));
+                Assert.assertTrue("", res_e.equalsIgnoreCase(res_o.trim()));
                 LOG_VALIDA.log(Level.INFO, " ******* VALIDACION CORRECTA  ******* ");
 
             } else {
-            //  assert (!res_e.equals(res_o.trim())):"VALIDACION ERRONEA";
-            //  Assert.assertNotEquals(res_e, res_o.trim());
+                //  assert (!res_e.equals(res_o.trim())):"VALIDACION ERRONEA";
+                //  Assert.assertNotEquals(res_e, res_o.trim());
                 LOG_VALIDA.log(Level.INFO, " ****** VALIDACION ERRONEA ****** ");
                 LOG_VALIDA.log(Level.INFO, " **** El valor esperado es distinto al valor obtenido en el resultado **** ");
-                Assert.assertTrue("",res_e.equalsIgnoreCase(res_o.trim()));
-            //    SoftAssertions soft = new SoftAssertions();
-            //    soft.assertAll();
+                Assert.assertTrue("", res_e.equalsIgnoreCase(res_o.trim()));
+                //    SoftAssertions soft = new SoftAssertions();
+                //    soft.assertAll();
 
             }
         } catch (Exception e) {
@@ -97,7 +97,7 @@ public class NativeAndroid_Calc_Step extends AndroidElement {
     public void cerrar_app() {
         try {
             a_driver.closeApp();
-            LOG_TEST.log(Level.INFO," ********** TEST EXITOSO ********** ");
+            LOG_TEST.log(Level.INFO, " ********** TEST EXITOSO ********** ");
 
         } catch (Exception e) {
             e.printStackTrace();
