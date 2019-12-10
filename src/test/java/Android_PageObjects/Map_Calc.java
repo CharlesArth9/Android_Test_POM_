@@ -17,7 +17,7 @@ public class Map_Calc extends AndroidElement {
     //AppiumDriver<MobileElement> driver;
 
     String res_o = "";
-    //  public final static Logger LOG_EJECUCION = Logger.getLogger("Ejecución");
+    public final static Logger LOG_EJECUCION = Logger.getLogger("Ejecución");
 
     @AndroidFindBy(id = "com.android.calculator2:id/digit_6")
     AndroidElement num6;
@@ -40,7 +40,6 @@ public class Map_Calc extends AndroidElement {
     //   MobileElement equal;
 
     public void setear_nums(AndroidDriver a_driver) {
-        NativeAndroid_Calc_Step logg = new NativeAndroid_Calc_Step();
 
         try {
 
@@ -67,12 +66,12 @@ public class Map_Calc extends AndroidElement {
              a_driver.findElementById("com.android.calculator2:id/op_mul").click();
              calcButtons.get(4).click();
              a_driver.findElementById("com.android.calculator2:id/eq").click();*/
-            logg.LOG_EJECUCION.log(Level.INFO, " ******* INGRESO DE NUMEROS EJECUTADO CON EXITO ******* ");
+            LOG_EJECUCION.log(Level.INFO, " ******* INGRESO DE NUMEROS EJECUTADO CON EXITO ******* ");
 
 
         } catch (Exception e) {
             e.printStackTrace();
-            logg.LOG_EJECUCION.log(Level.INFO, " ******* ERROR EN EL INGRESO DE NUMEROS  ******* ");
+            LOG_EJECUCION.log(Level.INFO, " ******* ERROR EN EL INGRESO DE NUMEROS  ******* ");
             a_driver.closeApp();
         }
     }

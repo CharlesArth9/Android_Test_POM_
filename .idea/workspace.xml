@@ -6,13 +6,15 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Android_PageObjects/Map_Calc.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Android_PageObjects/Map_Calc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Android_Steps/NativeAndroid_Calc_Step.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Android_Steps/NativeAndroid_Calc_Step.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Android_PageObjects/Map_Calc.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Android_PageObjects/Map_Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Android_PageObjects/Map_Calc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Android_Steps/NativeAndroid_Calc_Step.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Android_Steps/NativeAndroid_Calc_Step.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/975607639955a3d6ccdb47754129e667094bec94380013f23507c527134c18a8.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/975607639955a3d6ccdb47754129e667094bec94380013f23507c527134c18a8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/975607639955a3d6ccdb47754129e667094bec94380013f23507c527134c18a8.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/975607639955a3d6ccdb47754129e667094bec94380013f23507c527134c18a8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-975607639955a3d6ccdb47754129e667094bec94380013f23507c527134c18a8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-975607639955a3d6ccdb47754129e667094bec94380013f23507c527134c18a8.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,22 +196,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1575923463869" />
-    <state width="1323" height="455" key="GridCell.Tab.0.bottom" timestamp="1576011937920">
+    <state width="1323" height="325" key="GridCell.Tab.0.bottom" timestamp="1576013959436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="455" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576011937920" />
-    <state width="1323" height="455" key="GridCell.Tab.0.center" timestamp="1576011937920">
+    <state width="1323" height="325" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576013959436" />
+    <state width="1323" height="325" key="GridCell.Tab.0.center" timestamp="1576013959436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="455" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576011937920" />
-    <state width="1323" height="455" key="GridCell.Tab.0.left" timestamp="1576011937919">
+    <state width="1323" height="325" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576013959436" />
+    <state width="1323" height="325" key="GridCell.Tab.0.left" timestamp="1576013959436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="455" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576011937919" />
-    <state width="1323" height="455" key="GridCell.Tab.0.right" timestamp="1576011937920">
+    <state width="1323" height="325" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576013959436" />
+    <state width="1323" height="325" key="GridCell.Tab.0.right" timestamp="1576013959436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="455" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576011937920" />
+    <state width="1323" height="325" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576013959436" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1575988116569">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
