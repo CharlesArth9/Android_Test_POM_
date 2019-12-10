@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Adding of two numbers" skipped="0" tests="1" time="25.47" timestamp="2019-12-09 04:04:21"><testcase name="Adding of two numbers"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+Android_definitions.Calc_Definition.validates_addition_of_two_numbers_as(Calc_Definition.java:31)&#13;
+✽.Charles validates multiply of two numbers as "650"(src/test/resources/features/Calculadora.feature:7)&#13;
+</system-err></testcase></testsuite>
