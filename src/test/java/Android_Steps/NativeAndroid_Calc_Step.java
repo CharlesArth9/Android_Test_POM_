@@ -25,7 +25,7 @@ public class NativeAndroid_Calc_Step extends AndroidElement {
     Map_Calc m = new Map_Calc();
     AndroidDriver a_driver = null;
     public final static Logger LOG_VALIDA = Logger.getLogger("Validar");
-    public final static Logger LOG_TEST_EXITOSO = Logger.getLogger("Exito");
+    public final static Logger LOG_TEST = Logger.getLogger("Exito/Fracaso");
     public final static Logger LOG_EJECUCION = Logger.getLogger("Ejecucion");
 
     @Step
@@ -97,7 +97,7 @@ public class NativeAndroid_Calc_Step extends AndroidElement {
     public void cerrar_app() {
         try {
             a_driver.closeApp();
-            LOG_TEST_EXITOSO.log(Level.INFO," ********** TEST EXITOSO ********** ");
+            LOG_TEST.log(Level.INFO," ********** TEST EXITOSO ********** ");
 
         } catch (Exception e) {
             e.printStackTrace();
