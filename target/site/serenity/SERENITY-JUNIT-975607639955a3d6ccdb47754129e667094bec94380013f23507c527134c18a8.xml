@@ -1,5 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Multiply of two numbers" skipped="0" tests="1" time="31.14" timestamp="2019-12-12 09:29:38"><testcase name="Multiply of two numbers"><failure message="" type="java.lang.AssertionError"/><system-err>&#13;
-Android_Steps.NativeAndroid_Calc_Step.valida(NativeAndroid_Calc_Step.java:87)&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Multiply of two numbers" skipped="0" tests="1" time="40.15" timestamp="2019-12-12 02:19:54"><testcase name="Multiply of two numbers"><error message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'CHMEPPF0HDQQD', ip: '10.14.8.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appActivity: com.android.calculator2.Cal..., appPackage: com.android.calculator2, databaseEnabled: false, desired: {appActivity: com.android.calculator2.Cal..., appPackage: com.android.calculator2, deviceName: Pixel 2, noReset: false, platformName: android, platformVersion: 9, udid: emulator-5554}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 011e58be-bc48-4095-91d7-b4f611ac0bd7&#10;*** Element info: {Using=id, value=com.android.calculator2:id/result}&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'CHMEPPF0HDQQD', ip: '10.14.8.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.NoSuchElementException">An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHMEPPF0HDQQD', ip: '10.14.8.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.calculator2.Cal..., appPackage: com.android.calculator2, databaseEnabled: false, desired: {appActivity: com.android.calculator2.Cal..., appPackage: com.android.calculator2, deviceName: Pixel 2, noReset: false, platformName: android, platformVersion: 9, udid: emulator-5554}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 011e58be-bc48-4095-91d7-b4f611ac0bd7
+*** Element info: {Using=id, value=com.android.calculator2:id/result}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHMEPPF0HDQQD', ip: '10.14.8.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: AndroidDriver</error><system-err>An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHMEPPF0HDQQD', ip: '10.14.8.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.calculator2.Cal..., appPackage: com.android.calculator2, databaseEnabled: false, desired: {appActivity: com.android.calculator2.Cal..., appPackage: com.android.calculator2, deviceName: Pixel 2, noReset: false, platformName: android, platformVersion: 9, udid: emulator-5554}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 011e58be-bc48-4095-91d7-b4f611ac0bd7
+*** Element info: {Using=id, value=com.android.calculator2:id/result}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHMEPPF0HDQQD', ip: '10.14.8.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: AndroidDriver&#13;
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)&#13;
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)&#13;
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)&#13;
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)&#13;
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)&#13;
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#13;
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)&#13;
+io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)&#13;
+io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)&#13;
+io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)&#13;
+Android_PageObjects.Map_Calc._res_validacion(Map_Calc.java:104)&#13;
+Android_Steps.NativeAndroid_Calc_Step.valida(NativeAndroid_Calc_Step.java:75)&#13;
 Android_definitions.Calc_Definition.validates_multiply_of_two_numbers_as(Calc_Definition.java:27)&#13;
-cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+✽.Charles validates multiply of two numbers as 650(src/test/resources/features/Calculadora.feature:7)&#13;
 </system-err></testcase></testsuite>

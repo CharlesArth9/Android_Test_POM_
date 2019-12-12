@@ -32,6 +32,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Definitions" />
+        <option value="Pages" />
+        <option value="Steps" />
+        <option value="Android_page" />
       </list>
     </option>
   </component>
@@ -53,7 +57,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="JUnit.RunnerFeatures">
     <configuration name="Android_test_NodeJs in Pruebas_Android" type="AndroidJUnit" factoryName="Android JUnit" nameIsGenerated="true">
@@ -182,26 +186,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="531" y="252" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1575732764170" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576174723935">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1576174723935" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1575923463869">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1575923463869" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1576161994765">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1576178380900">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576161994765" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1576161994765">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576178380900" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1576178380899">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576161994765" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1576161994764">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576178380899" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1576178380899">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576161994764" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1576161994765">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576178380899" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1576178380900">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576161994765" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576178380900" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1575988116569">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -218,10 +226,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1575988116569" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1576167406613">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1576176742363">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576167406613" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576176742363" />
+    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576171914058">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1576171914058" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1575896774602">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

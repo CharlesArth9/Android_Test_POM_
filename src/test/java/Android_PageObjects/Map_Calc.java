@@ -6,6 +6,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import net.serenitybdd.core.annotations.findby.By;
+import org.openqa.selenium.WebElement;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -18,11 +19,11 @@ public class Map_Calc extends AndroidElement {
     String res_o = "";
     public final static Logger LOG_EJECUCION = Logger.getLogger("Ejecución");
 
-    @AndroidFindBy(id = "AppIddigit_6")
-    AndroidElement num6;
+    @AndroidFindBy(xpath = "//android.widget.Button[contains(@resource-id,'digit_6')]")
+    WebElement seis;
     //  MobileElement  num6;
 
-    @AndroidFindBy(id = "AppIddigit_9")
+    @AndroidFindBy(id = "digit_9")
     AndroidElement num9;
     //  MobileElement  num9;
 
@@ -39,30 +40,29 @@ public class Map_Calc extends AndroidElement {
     //   MobileElement equal; :ERROR
     String AppId = "com.android.calculator2:id/";
 
-    public void setear_nums(AndroidDriver a_driver) {
+    public void setear_nums(AndroidDriver driver) {
         
         String AppClass = "";
 
         try {
             //:OPTIMIZE
 
-            MobileElement seis = (MobileElement) a_driver.findElement(By.xpath("//android.widget.Button[contains(@resource-id,'digit_6')]"));
-            MobileElement cinco = (MobileElement) a_driver.findElement(By.xpath("//android.widget.Button[@text='5' and @index='4']"));
-            AndroidElement nueve = (AndroidElement) a_driver.findElement(By.xpath("//android.widget.Button[@text='9' and @index='2']"));
-            MobileElement multiplicar = (MobileElement) a_driver.findElement(By.id(AppId+"op_mul"));
-            AndroidElement ocho = (AndroidElement) a_driver.findElement(By.xpath("//android.widget.Button[@text='8' and @index='1']"));
-            MobileElement siete = (MobileElement) a_driver.findElement(By.id(AppId+"digit_7"));
-            AndroidElement tres = (AndroidElement) a_driver.findElement(By.xpath(
-                    "//android.widget.LinearLayout[@index='0']/android.view.ViewGroup[@index='0']/android.widget.Button[@index='8']"));
-            MobileElement igual = (MobileElement) a_driver.findElement(By.id(AppId+"eq"));
+            MobileElement num6 = (MobileElement) driver.findElement(By.xpath("//android.widget.Button[contains(@resource-id,'digit_6')]"));
+            MobileElement num5 = (MobileElement) driver.findElement(By.xpath("//android.widget.Button[@text='5' and @index='4']"));
+            AndroidElement num9 = (AndroidElement) driver.findElement(By.xpath("//android.widget.Button[@text='9' and @index='2']"));
+            MobileElement mult = (MobileElement) driver.findElement(By.id(AppId +"op_mul"));
+            AndroidElement num8 = (AndroidElement) driver.findElement(By.xpath("//android.widget.Button[@text='8' and @index='1']"));
+            MobileElement num7 = (MobileElement) driver.findElement(By.id(AppId +"digit_7"));
+            AndroidElement num3 = (AndroidElement) driver.findElement(By.xpath("//android.widget.LinearLayout[@index='0']/android.view.ViewGroup[@index='0']/android.widget.Button[@index='8']"));
+            MobileElement igual = (MobileElement) driver.findElement(By.id(AppId +"eq"));
 
-            seis.click();
-            cinco.click();
-            nueve.click();
-            multiplicar.click();
-            ocho.click();
-            siete.click();
-            tres.click();
+            num6.click();
+            num5.click();
+            num9.click();
+            mult.click();
+            num8.click();
+            num7.click();
+            num3.click();
             igual.click();
 
            /* num6.click();
@@ -72,23 +72,23 @@ public class Map_Calc extends AndroidElement {
               equal.click(); */ // Usando @AndroidFindBy :FIXME -No me esta agarrando los @AndroidFindBy-
 
 
-           /* a_driver.findElement(By.id(AppId+"digit_6")).click();
-            a_driver.findElementById(AppId+"digit_5").click();
-            a_driver.findElementById(AppId+"digit_8").click();
-            a_driver.findElementById(AppId+"digit_7").click();
-            a_driver.findElementById(AppId+"op_mul").click();
-            a_driver.findElementById(AppId+"digit_1").click();
-            a_driver.findElementById(AppId+"digit_5").click();
-            a_driver.findElementById(AppId+"digit_9").click();
-            a_driver.findElementById(AppId+"eq").click();*/
+           /* driver.findElement(By.id(AppId+"digit_6")).click();
+            driver.findElementById(AppId+"digit_5").click();
+            driver.findElementById(AppId+"digit_8").click();
+            driver.findElementById(AppId+"digit_7").click();
+            driver.findElementById(AppId+"op_mul").click();
+            driver.findElementById(AppId+"digit_1").click();
+            driver.findElementById(AppId+"digit_5").click();
+            driver.findElementById(AppId+"digit_9").click();
+            driver.findElementById(AppId+"eq").click();*/
 
-            /* List<MobileElement> calcButtons = a_driver.findElements(By.xpath("//android.widget.Button"));
+            /* List<MobileElement> calcButtons = driver.findElements(By.xpath("//android.widget.Button"));
              calcButtons.get(6).click();
              calcButtons.get(8).click();
              calcButtons.get(10).click();
-             a_driver.findElementById(AppId+"op_mul").click();
+             driver.findElementById(AppId+"op_mul").click();
              calcButtons.get(4).click();
-             a_driver.findElementById(AppId+"eq").click();*/
+             driver.findElementById(AppId+"eq").click();*/
 
             LOG_EJECUCION.log(Level.INFO, " ******* INGRESO DE NUMEROS EJECUTADO CON EXITO ******* ");
 
@@ -96,11 +96,11 @@ public class Map_Calc extends AndroidElement {
         } catch (Exception e) {
             e.printStackTrace();
             LOG_EJECUCION.log(Level.INFO, " ******* ERROR EN EL INGRESO DE NUMEROS  ******* ");
-            a_driver.closeApp();
+            driver.closeApp();
         }
     }
 
-    public String _res_validacion(AndroidDriver a_driver) {
-        return res_o = a_driver.findElementById(AppId+"result").getText().trim();
+    public String _res_validacion(AndroidDriver driver) {
+        return res_o = driver.findElementById(AppId +"result").getText().trim();
     }
 }
