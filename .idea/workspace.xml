@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe93ad33-d123-4bbb-9859-5d3679dcb8bb" name="Default Changelist" comment="" />
+    <list default="true" id="fe93ad33-d123-4bbb-9859-5d3679dcb8bb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +71,7 @@
       <recent name="C:\Users\cmestral\Desktop\Proyectos deAutomatizacion\Pom_Base" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RunnerFeatures">
+  <component name="RunManager" selected="JUnit.RunnerFeatures (1)">
     <configuration name="Android_test_NodeJs in Pruebas_Android" type="AndroidJUnit" factoryName="Android JUnit" nameIsGenerated="true">
       <module name="Pruebas_Android" />
       <shortenClasspath name="MANIFEST" />
@@ -121,6 +123,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: The user successfully logs in with their account" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/../Proyectos deAutomatizacion/Pom_Base/src/test/resources/base.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Pom_Base.test" />
+      <option name="NAME_FILTER" value="^The user successfully logs in with their account$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^The user successfully logs in with their account$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: The user successfully logs in with their account" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunnerFeatures (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Pom_Base.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RunnerFeatures" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunnerFeatures" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Pruebas_Android" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -138,9 +168,13 @@
       <item itemvalue="Android JUnit.Android_test_NodeJs in Pruebas_Android" />
       <item itemvalue="Cucumber java.Feature: Calculadora" />
       <item itemvalue="JUnit.RunnerFeatures" />
+      <item itemvalue="Cucumber java.Scenario: The user successfully logs in with their account" />
+      <item itemvalue="JUnit.RunnerFeatures (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunnerFeatures (1)" />
+        <item itemvalue="Cucumber java.Scenario: The user successfully logs in with their account" />
         <item itemvalue="JUnit.RunnerFeatures" />
         <item itemvalue="Cucumber java.Feature: Calculadora" />
       </list>
@@ -204,22 +238,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576180244788" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1576182424712">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1576184866536">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576182424712" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1576182424712">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576184866536" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1576184866536">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576182424712" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1576182424712">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576184866536" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1576184866536">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576182424712" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1576182424712">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576184866536" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1576184866536">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576182424712" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576184866536" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1575988116569">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
