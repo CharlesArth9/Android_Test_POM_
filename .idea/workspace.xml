@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe93ad33-d123-4bbb-9859-5d3679dcb8bb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Pruebas_Android.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Calculadora.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Calculadora.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Android_PageObjects/Map_Calc.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Android_PageObjects/Map_Calc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/features/Calculadora.feature" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/features/Calculadora.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/975607639955a3d6ccdb47754129e667094bec94380013f23507c527134c18a8.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/975607639955a3d6ccdb47754129e667094bec94380013f23507c527134c18a8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/975607639955a3d6ccdb47754129e667094bec94380013f23507c527134c18a8.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/975607639955a3d6ccdb47754129e667094bec94380013f23507c527134c18a8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-975607639955a3d6ccdb47754129e667094bec94380013f23507c527134c18a8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-975607639955a3d6ccdb47754129e667094bec94380013f23507c527134c18a8.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +32,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../Proyectos deAutomatizacion/Pom_Base">
       <ProjectState />
     </projectState>
   </component>
@@ -32,12 +52,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Definitions" />
-        <option value="Pages" />
-        <option value="Steps" />
         <option value="Android_page" />
         <option value="feature_base_full" />
         <option value="full_feature" />
+        <option value="Definitions" />
+        <option value="Steps" />
+        <option value="Pages" />
       </list>
     </option>
   </component>
@@ -54,12 +74,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Proyectos deAutomatizacion/Pom_Base" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cmestral\Desktop\Proyectos deAutomatizacion\Pom_Base" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.RunnerFeatures">
     <configuration name="Android_test_NodeJs in Pruebas_Android" type="AndroidJUnit" factoryName="Android JUnit" nameIsGenerated="true">
@@ -192,26 +220,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1576174723935" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1575923463869">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1576180244788">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1575923463869" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1576178448822">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576180244788" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1576182424712">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576178448822" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1576178448822">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576182424712" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1576182424712">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576178448822" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1576178448822">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576182424712" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1576182424712">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576178448822" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1576178448822">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576182424712" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1576182424712">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576178448822" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576182424712" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1575988116569">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -228,14 +256,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1575988116569" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1576179386485">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1576183447121">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576179386485" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576183447121" />
     <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576171914058">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1576171914058" />
+    <state x="87" y="0" key="new project wizard" timestamp="1576180062783">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="87" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1576180062783" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1575896774602">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
