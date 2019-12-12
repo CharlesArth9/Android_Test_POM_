@@ -36,7 +36,7 @@ public class Map_Calc extends AndroidElement {
 
     @AndroidFindBy(id = "AppIdeq")
     AndroidElement equal;
-    //   MobileElement equal;
+    //   MobileElement equal; :ERROR
     String AppId = "com.android.calculator2:id/";
 
     public void setear_nums(AndroidDriver a_driver) {
@@ -44,6 +44,7 @@ public class Map_Calc extends AndroidElement {
         String AppClass = "";
 
         try {
+            //:OPTIMIZE
 
             MobileElement seis = (MobileElement) a_driver.findElement(By.xpath("//android.widget.Button[contains(@resource-id,'digit_6')]"));
             MobileElement cinco = (MobileElement) a_driver.findElement(By.xpath("//android.widget.Button[@text='5' and @index='4']"));
@@ -68,7 +69,8 @@ public class Map_Calc extends AndroidElement {
               num9.click();
               mult.click();
               num4.click();
-              equal.click(); */ // Usando @AndroidFindBy :fixme No me esta agarrando los @AndroidFindBy
+              equal.click(); */ // Usando @AndroidFindBy :FIXME -No me esta agarrando los @AndroidFindBy-
+
 
            /* a_driver.findElement(By.id(AppId+"digit_6")).click();
             a_driver.findElementById(AppId+"digit_5").click();
