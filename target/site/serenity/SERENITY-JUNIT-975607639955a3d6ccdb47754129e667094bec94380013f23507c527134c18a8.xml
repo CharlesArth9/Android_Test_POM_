@@ -1,1 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Multiply of two numbers" skipped="0" tests="1" time="31.12" timestamp="2019-12-10 04:39:23"><testcase name="Multiply of two numbers"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Multiply of two numbers" skipped="0" tests="1" time="31.14" timestamp="2019-12-12 09:29:38"><testcase name="Multiply of two numbers"><failure message="" type="java.lang.AssertionError"/><system-err>&#13;
+Android_Steps.NativeAndroid_Calc_Step.valida(NativeAndroid_Calc_Step.java:87)&#13;
+Android_definitions.Calc_Definition.validates_multiply_of_two_numbers_as(Calc_Definition.java:27)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
