@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe93ad33-d123-4bbb-9859-5d3679dcb8bb" name="Default Changelist" comment="" />
+    <list default="true" id="fe93ad33-d123-4bbb-9859-5d3679dcb8bb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +35,8 @@
         <option value="Pages" />
         <option value="Steps" />
         <option value="Android_page" />
+        <option value="feature_base_full" />
+        <option value="full_feature" />
       </list>
     </option>
   </component>
@@ -54,7 +58,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunManager" selected="JUnit.RunnerFeatures">
     <configuration name="Android_test_NodeJs in Pruebas_Android" type="AndroidJUnit" factoryName="Android JUnit" nameIsGenerated="true">
@@ -223,10 +227,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1575988116569" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1576176742363">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1576179386485">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576176742363" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576179386485" />
     <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576171914058">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
